@@ -6,4 +6,41 @@
 
 body {
   font-family: "Raleway", sans-serif;
+  background: #da4453;
+  background: -webkit-linear-gradient(to left, #89216b, #da4453);
+  background: linear-gradient(to left, #89216b, #da4453);
+  color: #fff;
+  min-height: 100vh;
+}
+
+header {
+  font-size: 2rem;
+}
+
+header,
+form {
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form input,
+form button {
+  padding: 0.5rem;
+  font-size: 2rem;
+  border: none;
+  background: #fff;
+  outline-width: 0;
+}
+
+form button {
+  color: #3282b8;
+  background: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+form button:hover {
+  color: #1f4068;
 }
