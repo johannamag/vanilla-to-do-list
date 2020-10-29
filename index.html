@@ -3,14 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>VANILLA TO DO APP</title>
+    <title>VANILLA TODO APP</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <header>
+      <h1>My Todo List</h1>
+    </header>
+    <form>
+      <input class="todo-input" type="text" placeholder="Add a new task..." />
+      <button class="todo-button" type="submit">
+        <i class="fas fa-plus-circle"></i>
+      </button>
+    </form>
+    <div class="todo-container">
+      <ul class="todo-list"></ul>
+    </div>
+
     <script src="index.js"></script>
   </body>
 </html>
